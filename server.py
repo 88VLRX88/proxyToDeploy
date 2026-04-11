@@ -1,6 +1,6 @@
 import socket, struct, threading
 
-PROXY_HOST, PROXY_PORT = '0.0.0.0', 8989
+PROXY_HOST, PROXY_PORT = '0.0.0.0', {{PORT}}
 
 def handle(cs, addr):
     print(f"[+] {addr}")
