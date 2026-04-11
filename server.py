@@ -1,6 +1,8 @@
 import socket, struct, threading
+import sys
 
-PROXY_HOST, PROXY_PORT = '0.0.0.0', {{PORT}}
+PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8989
+PROXY_HOST, PROXY_PORT = '0.0.0.0', PORT
 
 def handle(cs, addr):
     print(f"[+] {addr}")
